@@ -9,7 +9,7 @@ const Map = () => {
 
     })
     const [geoAPI, setGeoAPI] = useState([])
-    const API = `https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_3MAn67mVmAg9q9XrifTapXzmyL7Lb&ipAddress=${searchIP.IPaddress}
+    const API = `https://geo.ipify.org/api/v2/country,city?apiKey=at_8GYwFgPif5Fekxinsvi3D7Ew0D9lg&ipAddress=${searchIP.IPaddress}
     `
     useEffect(()=>{
         fetch(API)
